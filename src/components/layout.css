@@ -42,3 +42,7 @@ p {
     column-gap: 1rem;
   }
 }
+
+.small {
+  width: 200px;
+}
