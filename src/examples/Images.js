@@ -19,6 +19,13 @@ const getImages = graphql`
         }
       }
     }
+    example: file(relativePath: { eq: "imagen-4.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 100) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
 `
 
@@ -46,6 +53,7 @@ const Images = () => {
           <Image fluid={data.fluid.childImageSharp.fluid} />
           <h2>Content</h2>
         </div>
+        <Image fluid={data.example.childImageSharp.fluid} />
       </article>
     </section>
   )
