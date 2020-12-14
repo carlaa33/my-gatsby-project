@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{ZGp8:function(e,n,t){"use strict";t.r(n);var l=t("q1tI"),o=t.n(l);n.default=function(e){return console.log(e),o.a.createElement("div",null,o.a.createElement("h1",null,"hello from product template"))}}}]);
-//# sourceMappingURL=component---src-templates-product-template-js-a2b56d6250ccbc25621b.js.map
